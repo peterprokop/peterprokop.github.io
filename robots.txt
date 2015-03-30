@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: 
+
+Sitemap: http://peterprokop.github.io/sitemap.xml 

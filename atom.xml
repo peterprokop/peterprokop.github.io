@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Peter's blog]]></title>
+  <link href="http://peterprokop.github.io/atom.xml" rel="self"/>
+  <link href="http://peterprokop.github.io/"/>
+  <updated>2015-03-30T12:12:17+03:00</updated>
+  <id>http://peterprokop.github.io/</id>
+  <author>
+    <name><![CDATA[Peter Prokop]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Why Not Swift?]]></title>
+    <link href="http://peterprokop.github.io/blog/2015/03/30/why-not-swift/"/>
+    <updated>2015-03-30T11:38:59+03:00</updated>
+    <id>http://peterprokop.github.io/blog/2015/03/30/why-not-swift</id>
+    <content type="html"><![CDATA[<p>Apple&rsquo;s Swift language since it&rsquo;s release in September 2014 has already
+caused much controversy. In this post I will try to provide arguments for and AGAINST
+using Swift in your projects.</p>
+
+<h3>Arguments against</h3>
+
+<ul>
+<li>Swift cannot be mixed with C and C++ code - for each function/class you want
+to use in your Swift code you must create an Objective C wrapper and include it in the
+bridging header of your project.</li>
+</ul>
+
+
+<h3>Arguments for</h3>
+
+<ul>
+<li>Compared to Obj-C, syntax is cleaner and easier to read:
+<code>myObj.doSomething(foo, anotherArg: bar)</code> is shorter and much prettier than
+<code>[myObj doSomethingWithArg:foo anotherArg:bar];</code></li>
+</ul>
+
+
+<p>This list is far from complete and will be frequently updated.</p>
+]]></content>
+  </entry>
+  
+</feed>
